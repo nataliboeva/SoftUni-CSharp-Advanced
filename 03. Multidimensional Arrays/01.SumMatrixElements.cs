@@ -1,4 +1,4 @@
-﻿namespace _01._Sum_Matrix_Elements
+namespace _01._Sum_Matrix_Elements
 {
     internal class Program
     {
@@ -14,7 +14,7 @@
                 for (int col = 0; col < input[1]; col++)
                 {
                     matrix[row, col] = value[col];
-                }
+                } 
             }
 
             int sum = 0;
