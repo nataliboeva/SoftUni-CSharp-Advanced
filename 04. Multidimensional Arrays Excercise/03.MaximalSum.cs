@@ -1,4 +1,4 @@
-﻿namespace _03.MaximalSum
+namespace _03.MaximalSum
 {
     internal class Program
     {
@@ -16,7 +16,7 @@
                 }
             }
             int maxSum = int.MinValue;
-            int maxRow = 0;
+            int maxRow = 0; 
             int maxCol = 0;
 
             for (int row = 0; row < matrix.GetLength(0) - 2; row++)
