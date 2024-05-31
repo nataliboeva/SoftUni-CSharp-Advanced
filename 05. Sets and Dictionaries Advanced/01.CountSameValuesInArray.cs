@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace _01.CountSameValuesInArray
+﻿namespace _01.CountSameValuesInArray
 {
     internal class Program
     {
@@ -13,7 +9,7 @@ namespace _01.CountSameValuesInArray
                 .Select(double.Parse)
                 .ToArray();
 
-            Dictionary<double, int> SameValuesCount = new ();
+            Dictionary<double, int> SameValuesCount = new();
 
             foreach (double number in numbers)
             {
@@ -27,7 +23,7 @@ namespace _01.CountSameValuesInArray
                 }
             }
 
-            foreach(var kvp in SameValuesCount)
+            foreach (var kvp in SameValuesCount)
             {
                 Console.WriteLine($"{kvp.Key} - {kvp.Value} times");
             }
