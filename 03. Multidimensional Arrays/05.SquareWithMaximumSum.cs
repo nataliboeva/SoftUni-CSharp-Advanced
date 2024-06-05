@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int[] input = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
-            int[,] matrix = new int[input[0], input[1]];
+            int[,] matrix = new int[input[0], input[1]]; 
 
             for (int row = 0; row < input[0]; row++)
             {
