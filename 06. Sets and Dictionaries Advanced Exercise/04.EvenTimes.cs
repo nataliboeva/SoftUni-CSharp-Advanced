@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 
 namespace _04.EvenTimes
 {
@@ -15,7 +15,7 @@ namespace _04.EvenTimes
                 {
                     numbers.Add(num, 0);
                 }
-                numbers[num]++;
+                numbers[num]++; 
             }
             
             int evenNumber = numbers.First(kvp => kvp.Value % 2 == 0).Key;
