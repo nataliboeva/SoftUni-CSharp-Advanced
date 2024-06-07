@@ -1,8 +1,8 @@
-﻿namespace _01.CountSameValuesInArray
+namespace _01.CountSameValuesInArray
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             double[] numbers = Console.ReadLine()
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
