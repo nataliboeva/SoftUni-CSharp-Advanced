@@ -1,8 +1,8 @@
-﻿namespace _02.SquaresInMatrix
+namespace _02.SquaresInMatrix
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int[,] matrix = new int[input[0], input[1]];
