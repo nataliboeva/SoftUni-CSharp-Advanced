@@ -1,8 +1,8 @@
-﻿namespace _01.DiagonalDifference
+namespace _01.DiagonalDifference
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             int size = int.Parse(Console.ReadLine());
             int[,] diagonal = new int[size, size];
