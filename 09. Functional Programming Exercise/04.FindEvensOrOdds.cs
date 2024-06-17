@@ -1,4 +1,4 @@
-﻿namespace _04.FindEvensOrOdds
+namespace _04.FindEvensOrOdds
 {
     internal class Program
     {
@@ -12,7 +12,7 @@
 
             string type = Console.ReadLine();
             int start = numbers[0];
-            int end = numbers[1];
+            int end = numbers[1]; 
 
             List<int> range = Enumerable.Range(start, end - start + 1).ToList();
 
