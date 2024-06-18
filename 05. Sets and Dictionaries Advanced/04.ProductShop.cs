@@ -1,8 +1,8 @@
-﻿namespace _04.ProductShop
+namespace _04.ProductShop
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             SortedDictionary<string, Dictionary<string, double>> productsShops = new();
 
