@@ -1,8 +1,8 @@
-﻿namespace _02.AverageStudentGrades
+namespace _02.AverageStudentGrades
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             int students = int.Parse(Console.ReadLine());
             Dictionary<string, List<decimal>> gradesPerStudent = new();
