@@ -6,7 +6,7 @@
         {
             int count = int.Parse(Console.ReadLine()); 
             string command = string.Empty;
-            Queue<string> cars = new Queue<string>();
+            Queue<string> cars = new Queue<string>(); 
             int passes = 0;
             while(true)
             {
